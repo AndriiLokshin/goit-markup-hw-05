@@ -804,7 +804,7 @@ a.page-footer.logo {
    letter-spacing: 0.03em;
 }
 
-.portfolio-overlay:hover .portfolio-overlay-text { 
+.portfolio-list-link:hover .portfolio-overlay-text { 
    transform: translateY(0%);
 }
 
