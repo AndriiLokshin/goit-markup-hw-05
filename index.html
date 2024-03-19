@@ -493,8 +493,6 @@
         <p class="modal-caption">Leave your contacts and we will call you back</p>
         <form class="modal-form" name="modal">
           <div class="modal__wrapper">
-            
-            
               <label class="form-label" for="user-name">Name</label>
               <div class="form-input-wrap">
                 <input 
@@ -505,10 +503,9 @@
                   <svg class="form-icon" width="18" height="24">
                     <use href="./images/icons.svg#icon-modal-name"></use>
                   </svg>
-              
-            </div>
-            
-            
+              </div>
+          </div>
+          <div class="modal__wrapper">
               <label class="form-label" for="user-phone">Phone</label>
               <div class="form-input-wrap">
                 <input 
@@ -520,8 +517,9 @@
                     <use href="./images/icons.svg#icon-modal-phone"></use>
                   </svg>
               </div>
-            
-           
+          </div>
+
+          <div class="modal__wrapper"> 
               <label class="form-label" for="user-email">Email</label>
               <div class="form-input-wrap">
               <input 
@@ -533,32 +531,31 @@
                 <use href="./images/icons.svg#icon-modal-email"></use>
               </svg>
               </div>
-            
-            <div class="form-field">
+          </div>   
+
+          <div class="textarea-wrapper">
               <label class="form-label" for="user-comment">Comment</label>
               <textarea 
               class="form-comment"
               name="user-comment" 
               id="user-comment" 
-              rows="7" 
               placeholder="Text input"></textarea>
-            </div>
+          </div>
             
             <div class="modal-checkbox">
-            <label class="form__agreement" for="user-privacy"> I accept the terms and conditions of the 
               <input class="checkbox visually-hidden" 
               id="user-privacy" 
               type="checkbox" 
               value="true"
               name="user_privacy">
-              <span class="agreement__checkbox" width="16" height="16">
-                <svg class="agreement__icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-modal-checkbox"></use>
-              </svg>
-              </span>
+              <label class="form__agreement" for="user-privacy">
+                <span class="agreement__checkbox" width="16" height="16">
+                  <svg class="agreement__icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-modal-checkbox"></use>
+                  </svg>
+                </span> I accept the terms and conditions of the 
               <a class="agreement__link"  href="">Privacy Policy</a>
-            </input>
-            </label>
+              </label>
             </div>
             
             <button class="form__btn"  type="submit">Send</button>
